@@ -1,0 +1,212 @@
+:root{
+    --mas-back: #000000;
+    --wite: #ffffff;
+    --dark-grey: #171F26;
+    --grey: #A3ABB2;
+    --black: #0C151D;
+    --blue: #3E64AA;
+    --yellow: #FFE071;
+    --sm: 10px;
+    --md: 20px;
+    --lg: 60px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--wite);
+    background-color: var(--black);
+}
+
+
+/* PROFILE */
+
+.profile{
+    width: 40%;
+    margin: 10% auto ;
+    padding: auto;
+    display: flex;
+}
+
+.profile-image{
+    margin: auto;
+    display: flex;
+}
+
+.profile-img{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile-con{
+    margin: auto;
+    display: grid;
+}
+
+.profile-context{
+    margin: auto;
+    display: grid;
+    margin: 0;
+}
+
+.profile-text{
+    display: grid;
+    margin: auto ;
+    padding: auto;
+    gap: 5px;
+}
+
+.profile-text h1 {
+    margin: auto;
+}
+
+.profile-text p{
+    margin: auto;
+}
+
+.profile-icons{
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+
+.profile-icons img{
+    margin: 0 10px;
+}
+
+/* INFO */
+
+.info{
+    width: 60%;
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    font-size: var(--md);
+}
+
+.info-text{
+    height: auto;
+    display: flex;
+}
+
+.more-info{
+    display: grid;
+    margin: auto;
+}
+
+.more-info h2{
+    margin: auto;
+    display: flex;
+}
+
+.more-info p{
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+/* BUTTONS */
+
+.buttons{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    margin: 5% auto;
+    gap: 30px;
+}
+
+.buttons-b{
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    margin: 5% auto;
+    gap: 30px;
+    background-color: var(--dark-grey);
+
+}
+
+.button{
+    display: flex;
+
+}
+
+.buttons .button img{
+    display: flex;
+
+}
+
+.buttons .button button{
+    padding: 10%;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    width: 290px;
+    border: 0px;
+    color: var(--grey);
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--dark-grey) ; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttons-b .button button{
+    padding: 10%;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    width: 290px;
+    border: 0px;
+    color: var(--grey);
+    text-align: center;
+    border-radius: 5px  ;
+    background-color: var(--dark-grey) ; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttons .button button:hover{
+    background-color: var(--yellow);
+    color: var(--mas-back);
+}
+
+/* IMAGES */
+
+.images-box{
+    width: auto;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.images .imagen{
+    margin: 5% 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.images img {
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}

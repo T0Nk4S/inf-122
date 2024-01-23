@@ -1,0 +1,53 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --shadow: #00000017;
+    --sm: 16px;
+    --md: 24px;
+    --lg: 32px
+}
+
+body{
+    margin: 0;
+    pad: 0;
+}
+
+.card-container{
+    margin: 10%;
+    display: flex;
+    background-color: palegreen;
+}
+
+.card-box{
+    display: flex;
+    padding: 1%;
+}
+
+.card-image {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    display: grid;
+}
+
+.card-content {
+    display: grid;
+    margin: 10%;
+    text-align: center;
+    background-color: aqua;
+}
+
+.card-title {
+    font-size: var(--lg);
+    margin-bottom: 15px;
+}
+
+.card-date .card-place {
+    font-size: var(--sm);
+}
+
+.card-description {
+    font-size: var(--sm);
+    text-align: justify;
+    margin-top: 24px;    
+}
